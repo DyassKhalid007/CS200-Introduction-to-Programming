@@ -16,7 +16,7 @@ bool BMatching(vector<string>array)
             {
                 if(s.empty())
                 {
-                    return true;
+                    return false;
                 }
                 if(s.top()=='('&&array[i]==')')
                 {
